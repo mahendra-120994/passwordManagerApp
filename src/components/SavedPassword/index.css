@@ -1,0 +1,51 @@
+* {
+  font-family: 'Roboto';
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  list-style: none;
+  width: 250px;
+}
+.list_items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.firstLatter {
+  color: #ffffff;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0fffff;
+  margin-right: 10px;
+}
+.details {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 2px;
+}
+.delete_btn {
+  border: 0;
+  background-color: transparent;
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.dlt_logo {
+  width: 24px;
+}
+.stars {
+  width: 120px;
+  height: 20px;
+  margin: 0;
+  flex-shrink: 1;
+}
